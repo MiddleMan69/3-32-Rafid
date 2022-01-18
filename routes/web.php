@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about', [
         "nama" => "S. Maulana Muhammad Rafid",
-        "email" => "3123020202",
+        "email" => "3123020202@student.smktelkom-pwt.sch.id",
         "gambar" => "rian.jpg"
     ]);
 });
